@@ -4,6 +4,7 @@
   "description": "",
   "main": "lib/index.js",
   "scripts": {
+    "build": "babel src -d lib --ignore \"**/*.test*js\"",
     "precommit": "lint-staged",
     "prettier": "prettier 'src/**/*.js' --write --single-quote=true --print-width=120"
   },
@@ -18,9 +19,12 @@
     "url": "https://github.com/mattphillips/component-cli/issues"
   },
   "homepage": "https://github.com/mattphillips/component-cli#readme",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
     "husky": "^0.14.3",
     "lint-staged": "^4.0.1",
     "prettier": "^1.5.2"
@@ -29,6 +33,12 @@
     "*.js": [
       "yarn prettier",
       "git add"
+    ]
+  },
+  "babel": {
+    "plugins": [
+      "babel-plugin-transform-es2015-modules-commonjs",
+      "transform-object-rest-spread"
     ]
   }
 }
