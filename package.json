@@ -1,0 +1,19 @@
+{
+  "name": "component-cli",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattphillips/component-cli.git"
+  },
+  "keywords": [],
+  "author": "Matt Phillips (mattphillips)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mattphillips/component-cli/issues"
+  },
+  "homepage": "https://github.com/mattphillips/component-cli#readme"
+}
