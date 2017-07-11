@@ -1,3 +1,5 @@
+import prettier from 'prettier';
+
 const componentImport = name => {
   return {
     'index.js|x': `import ${name} from './';`,
@@ -6,17 +8,21 @@ const componentImport = name => {
 };
 
 export default ({ name, namingConvention }) => {
-  return `import React from 'react';
-import { shallow } from 'enzyme';
+  return prettier.format(
+    `
+    import React from 'react';
+    import { shallow } from 'enzyme';
 
-${componentImport(name)[namingConvention]}
+    ${componentImport(name)[namingConvention]}
 
-describe('<${name} />', () => {
-  it('renders with props', () => {
-    const props = {};
-    const component = shallow(<${name} {...props} />);
-    expect(component).toMatchSnapshot();
-  });
-});
-`;
+    describe('<${name} />', () => {
+      it('renders with props', () => {
+        const props = {};
+        const component = shallow(<${name} {...props} />);
+        expect(component).toMatchSnapshot();
+      });
+    });
+  `,
+    { printWidth: 120, singleQuote: true }
+  );
 };

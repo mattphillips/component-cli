@@ -36,7 +36,7 @@ exports[`Component Test renders with correct component name 1`] = `
 "import React from 'react';
 import { shallow } from 'enzyme';
 
-undefined
+undefined;
 
 describe('<Header />', () => {
   it('renders with props', () => {
