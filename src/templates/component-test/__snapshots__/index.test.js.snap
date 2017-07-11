@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component Test build template with correct import: component name 1`] = `
+"import React from 'react';
+import { shallow } from 'enzyme';
+
+import Header from './Header';
+
+describe('<Header />', () => {
+  it('renders with props', () => {
+    const props = {};
+    const component = shallow(<Header {...props} />);
+    expect(component).toMatchSnapshot();
+  });
+});
+"
+`;
+
+exports[`Component Test build template with correct import: index 1`] = `
+"import React from 'react';
+import { shallow } from 'enzyme';
+
+import Header from './';
+
+describe('<Header />', () => {
+  it('renders with props', () => {
+    const props = {};
+    const component = shallow(<Header {...props} />);
+    expect(component).toMatchSnapshot();
+  });
+});
+"
+`;
+
+exports[`Component Test renders with correct component name 1`] = `
+"import React from 'react';
+import { shallow } from 'enzyme';
+
+undefined
+
+describe('<Header />', () => {
+  it('renders with props', () => {
+    const props = {};
+    const component = shallow(<Header {...props} />);
+    expect(component).toMatchSnapshot();
+  });
+});
+"
+`;
