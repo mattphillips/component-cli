@@ -1,0 +1,232 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pure Component returns import with correct suffix: css when approach is imported 1`] = `
+"import React from 'react';
+import PropTypes from 'prop-types';
+import 'styles.css';
+
+const Header = props => {
+  return (
+
+  );
+};
+
+Header.propTypes = {
+};
+
+Header.defaultProps = {
+};
+
+export default Header;
+"
+`;
+
+exports[`Pure Component returns import with correct suffix: less when approach is imported 1`] = `
+"import React from 'react';
+import PropTypes from 'prop-types';
+import 'styles.less';
+
+const Header = props => {
+  return (
+
+  );
+};
+
+Header.propTypes = {
+};
+
+Header.defaultProps = {
+};
+
+export default Header;
+"
+`;
+
+exports[`Pure Component returns import with correct suffix: sass when approach is imported 1`] = `
+"import React from 'react';
+import PropTypes from 'prop-types';
+import 'styles.sass';
+
+const Header = props => {
+  return (
+
+  );
+};
+
+Header.propTypes = {
+};
+
+Header.defaultProps = {
+};
+
+export default Header;
+"
+`;
+
+exports[`Pure Component returns import with correct suffix: scss when approach is imported 1`] = `
+"import React from 'react';
+import PropTypes from 'prop-types';
+import 'styles.scss';
+
+const Header = props => {
+  return (
+
+  );
+};
+
+Header.propTypes = {
+};
+
+Header.defaultProps = {
+};
+
+export default Header;
+"
+`;
+
+exports[`Pure Component returns name as component/propTypes/defaultProps/export 1`] = `
+"import React from 'react';
+import PropTypes from 'prop-types';
+undefined
+
+const Header = props => {
+  return (
+
+  );
+};
+
+Header.propTypes = {
+};
+
+Header.defaultProps = {
+};
+
+export default Header;
+"
+`;
+
+exports[`Pure Component returns radium import when styling is radium 1`] = `
+"import React from 'react';
+import PropTypes from 'prop-types';
+import radium from 'radium';
+
+const Header = props => {
+  return (
+
+  );
+};
+
+Header.propTypes = {
+};
+
+Header.defaultProps = {
+};
+
+export default Header;
+"
+`;
+
+exports[`Pure Component returns styles from javascript import when approach is styled components 1`] = `
+"import React from 'react';
+import PropTypes from 'prop-types';
+import styles from './styles';
+
+const Header = props => {
+  return (
+
+  );
+};
+
+Header.propTypes = {
+};
+
+Header.defaultProps = {
+};
+
+export default Header;
+"
+`;
+
+exports[`Pure Component returns styles import with correct suffix: css when approach is css-modules 1`] = `
+"import React from 'react';
+import PropTypes from 'prop-types';
+import styles from './styles.css';
+
+const Header = props => {
+  return (
+
+  );
+};
+
+Header.propTypes = {
+};
+
+Header.defaultProps = {
+};
+
+export default Header;
+"
+`;
+
+exports[`Pure Component returns styles import with correct suffix: less when approach is css-modules 1`] = `
+"import React from 'react';
+import PropTypes from 'prop-types';
+import styles from './styles.less';
+
+const Header = props => {
+  return (
+
+  );
+};
+
+Header.propTypes = {
+};
+
+Header.defaultProps = {
+};
+
+export default Header;
+"
+`;
+
+exports[`Pure Component returns styles import with correct suffix: sass when approach is css-modules 1`] = `
+"import React from 'react';
+import PropTypes from 'prop-types';
+import styles from './styles.sass';
+
+const Header = props => {
+  return (
+
+  );
+};
+
+Header.propTypes = {
+};
+
+Header.defaultProps = {
+};
+
+export default Header;
+"
+`;
+
+exports[`Pure Component returns styles import with correct suffix: scss when approach is css-modules 1`] = `
+"import React from 'react';
+import PropTypes from 'prop-types';
+import styles from './styles.scss';
+
+const Header = props => {
+  return (
+
+  );
+};
+
+Header.propTypes = {
+};
+
+Header.defaultProps = {
+};
+
+export default Header;
+"
+`;
