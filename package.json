@@ -26,7 +26,10 @@
   "homepage": "https://github.com/mattphillips/component-cli#readme",
   "dependencies": {
     "fs-extra": "^3.0.1",
-    "inquirer": "^3.2.0"
+    "inquirer": "^3.2.0",
+    "inquirer-select-directory": "^1.1.2",
+    "node-dir": "^0.1.17",
+    "parse-gitignore": "^0.4.0"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
